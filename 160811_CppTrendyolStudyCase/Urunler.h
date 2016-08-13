@@ -34,7 +34,7 @@ class YarimKolTsrt : public Urunler
 			fabricType = fabrics[rand() % 3];
 			collarType = collars[rand() % 5];
 			size = rand() % 20 + 28;// bedenler hakkýnda fikrim yok.. minumum 28 maksimum 48 aldým
-			price = rand() % 78 + 22;//min22 max 100;
+			price = (double)(rand() % 7800 + 2200) / 100;//min22 max 100;
 			
 		}
 		void features()
@@ -60,7 +60,7 @@ public:
 		fabricType = fabrics[rand() % 3];
 		collarType = collars[rand() % 5];
 		size = rand() % 20 + 28;// bedenler hakkýnda fikrim yok.. minumum 28 maksimum 48 aldým
-		price = rand() % 78 + 22;//min22 max 100;
+		price = (double)(rand() % 7800 + 2200) / 100;//min22 max 100;
 	}
 	void features()
 	{
@@ -85,7 +85,7 @@ public:
 		fabricType = fabrics[rand() % 3];
 		collarType = "----";
 		size = rand() % 20 + 28;// bedenler hakkýnda fikrim yok.. minumum 28 maksimum 48 aldým
-		price = rand() % 78 + 60;//min22 max 100;
+		price = (double)(rand() % 7800 + 6000) / 100;//min60 max 138;
 	}
 	void features()
 	{
@@ -109,7 +109,7 @@ public:
 		fabricType = fabrics[rand() % 3];
 		collarType = "----";
 		size = rand() % 20 + 28;// bedenler hakkýnda fikrim yok.. minumum 28 maksimum 48 aldým
-		price = rand() % 78 + 60;//min22 max 100;
+		price = (double)(rand() % 7800 + 6000) / 100;//min22 max 138;
 	}
 	void features()
 	{
@@ -134,7 +134,7 @@ public:
 		fabricType = "----";;
 		collarType = "----";;
 		size = 0;// bedenler hakkýnda fikrim yok.. minumum 28 maksimum 48 aldým
-		price = rand() % 78 + 22;//min22 max 100;
+		price = (double)(rand() % 7800 + 6000)/100;//min22 max 138;
 	}
 	void features()
 	{
